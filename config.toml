@@ -1,0 +1,73 @@
+# Site settings
+baseurl = "https://ruudz.co.uk/"
+languageCode = "en-uk"
+title = "Ruudz | 0% Alcohol"
+theme = "hugo-smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Ruudz"
+  description = "100% Flavour 0% Alcohol - It's Time To Get Off Track"
+
+  # Background
+  [params.background]
+    image = "assets/img/lighthouse.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "/assets/img/ruudz.png"
+    alt = "ruudz"
+    width = "200"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "100% Flavour, 0% Alcohol - It's Time To Get Off Track"
+
+  # Quote section
+  [params.quote]
+    enable = false
+    text = "Yeah!"
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/ruudzdrink"
+
+  [[params.social]]
+    title = "Shop"
+    icon = "fa-shopping-cart"
+    link = "http://ruudz.co.uk"
+
+  [[params.social]]
+    title = "Email Ruudz"
+    icon = "fa-envelope"
+    link = "mailto:mshiner@birthofcool.co.uk"
+
+  [[params.social]]
+    title = "Newsletter"
+    icon = "fa-beer"
+    link = "#"

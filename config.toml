@@ -21,7 +21,7 @@ googleAnalytics = ""
 
   # Background
   [params.background]
-    image = "assets/img/lighthouse.jpg"
+    image = "assets/img/banner.jpg"
 
     # Enable and set background fade speed
     [params.background.fade]
@@ -30,14 +30,14 @@ googleAnalytics = ""
 
   # Logo section
   [params.logo]
-    enable = true
+    enable = false
     image = "/assets/img/ruudz.png"
     alt = "ruudz"
     width = "200"
 
   # Header section
   [params.header]
-    enable = true
+    enable = false
     title = "100% Flavour, 0% Alcohol - It's Time To Get Off Track"
 
   # Quote section
@@ -54,20 +54,20 @@ googleAnalytics = ""
 
   [[params.social]]
     title = "Twitter"
-    icon = "fa-twitter"
+    icon = "fa-twitter fa-4x"
     link = "https://twitter.com/ruudzdrink"
 
   [[params.social]]
-    title = "Shop"
-    icon = "fa-shopping-cart"
-    link = "http://ruudz.co.uk"
+    # title = "Shop"
+    # icon = "fa-shopping-cart fa-2x"
+    # link = "http://ruudz.co.uk"
 
   [[params.social]]
     title = "Email Ruudz"
-    icon = "fa-envelope"
+    icon = "fa-envelope fa-4x"
     link = "mailto:mshiner@birthofcool.co.uk"
 
-  [[params.social]]
-    title = "Newsletter"
-    icon = "fa-beer"
-    link = "#"
+  # [[params.social]]
+    # title = "Newsletter"
+    # icon = "fa-beer"
+    # link = "#"

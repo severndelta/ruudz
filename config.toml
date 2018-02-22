@@ -21,7 +21,7 @@ googleAnalytics = ""
 
   # Background
   [params.background]
-    image = "assets/img/banner.jpg"
+    image = "assets/img/R2.jpg"
 
     # Enable and set background fade speed
     [params.background.fade]
@@ -65,7 +65,7 @@ googleAnalytics = ""
   [[params.social]]
     title = "Email Ruudz"
     icon = "fa-envelope fa-4x"
-    link = "mailto:mshiner@birthofcool.co.uk"
+    link = "mailto:mark@thegrovepartnership.com"
 
   # [[params.social]]
     # title = "Newsletter"
